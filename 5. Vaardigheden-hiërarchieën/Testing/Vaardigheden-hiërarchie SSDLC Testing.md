@@ -5,18 +5,19 @@ tags:
 ---
 ## Applicatie testen
 
-### Testen voorbereiden
+### 1. Testen voorbereiden
 - Test applicatie opzetten
 - Test packages installeren
 - Testen in CI opzetten
 - Test strategie bepalen
 
-### Testbewijs ontwikkelen
+### 2. Testbewijs ontwikkelen
 - Testbaarheid functionaliteit bepalen
 - Test cases bepalen
 - Test anatomie opzetten
 
-### Testen evalueren
+### 3. Testen evalueren
 - Testresultaat analyseren
 - Resterend risico bepalen
-- Code review uitvoeren, standaard XYZ?
+- Code review uitvoeren #Standaarden/Standaard-XYZ #niet-terugkerende-vaardigheid
+	- Standaard 123
