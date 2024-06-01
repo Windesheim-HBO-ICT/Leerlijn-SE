@@ -1,40 +1,20 @@
 ---
-title: 1. Basis syntax
+title: 1. Basis JavaScript syntax
 tags:
   - JS/Variablen
   - page
 difficulty: 2
 ---
 
-# Inleiding
+# 1. JavaScript variablen
 In JavaScript worden de keywords `var`, `let`, of `const` gebruikt om variabelen te declareren. Een variabele is iets wat een waarde kan opslaan, zoals een **number**, een **string**, etc.
 
->Dit eerste hoofdstuk is redelijk lang. Het is echter een essentieel deel van developen met JavaScript. Niet bekend zijn met het gedrag van deze keywords gaat leiden tot onverwachte resultaten.
-
-# Syntax (var)
+# Javascript variabelen met `var`
 
 ```javascript
 var naam = "John Doe";
 var leeftijd = 25;
 var isStudent = true;
-```
-
-```javascript runner
-var naam = "John Doe";
-var leeftijd = 25;
-var isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
-```
-
-## Probeer het
-
-```javascript sandbox
-var naam = "John Doe";
-var leeftijd = 25;
-var isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
 ```
 
 ## Kenmerken
@@ -82,7 +62,7 @@ console.log(globaal); // "Ik ben een globale variable"
 Hoewel var lang de standaard was voor het declareren van variabelen, heeft het enkele beperkingen die het gebruik van `let` en `const` hebben gestimuleerd:
 - Scoping problemen: Omdat `var` function-scoped is en niet block-scoped (zoals binnen een if-statement of for-loop), kan dit leiden tot onvoorziene fouten en moeilijkheden bij het debuggen. Voorbeeld:
 
-```javascript runner
+```javascript
 if (true) {
   var blockScoped = "Hey! Ik ben hierbuiten ook beschikbaar";
 }
@@ -91,30 +71,12 @@ console.log(blockScoped);
 - Hoisting verwarring: Hoisting kan soms leiden tot verwarring en bugs, omdat variabelen beschikbaar zijn voordat ze gedeclareerd lijken te zijn.
 
 
-# Syntax (let)
+# Javascript variabelen met `let`
 
 ```javascript
 let naam = "John Doe";
 let leeftijd = 25;
 let isStudent = true;
-```
-
-```javascript runner
-let naam = "John Doe";
-let leeftijd = 25;
-let isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
-```
-
-## Probeer het
-
-```javascript sandbox
-let naam = "John Doe";
-let leeftijd = 25;
-let isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
 ```
 
 ## Kenmerken
@@ -143,30 +105,12 @@ let leeftijd = 25;
 let leeftijd = 30; // SyntaxError: Identifier 'leeftijd' has already been declared
 ```
 
-# Syntax (const)
+# Javascript variabelen met `const`
 
 ```javascript
 const naam = "John Doe";
 const leeftijd = 25;
 const isStudent = true;
-```
-
-```javascript runner
-const naam = "John Doe";
-const leeftijd = 25;
-const isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
-```
-
-## Probeer het
-
-```javascript sandbox
-const naam = "John Doe";
-const leeftijd = 25;
-const isStudent = true;
-
-console.log(`${naam} is ${leeftijd} jaar oud.`)
 ```
 
 ## Kenmerken
@@ -193,28 +137,36 @@ leeftijd = 30; // TypeError: Assignment to constant variable.
 const naam; // SyntaxError: Missing initializer in const declaration
 ```
 
-# `const` met objecten en arrays
-Hoewel je de referentie van een `const` variabele niet kunt hernoemen of opnieuw kunt toewijzen, kun je wel de inhoud van objecten en arrays die met `const` zijn gedeclareerd, wijzigen.
+
+# 1.1 Oefening JavaScript variablen - var
+Maak in de codeblock hieronder 2 variabelen met `var`: naam en leeftijd. Zorg ervoor dat de jouw naam en leeftijd geeft.
 
 ```javascript runner
-// Dit mag
-const persoon = {
-  naam: "John Doe",
-  leeftijd: 25
-};
 
-persoon.leeftijd = 26;
-console.log(persoon.leeftijd); // 26
+console.log(`Ik ben ${naam} en ben ${leeftijd} jaar oud.`)
 ```
+
+# 1.2 Oefening JavaScript variablen - let
+Maak in het codeblock hieronder 1 variabele met `let`. Bij de initialisatie van de variabele moet dit jouw naam worden. Wijs vervolgens jouw leeftijd toe aan dezelfde variabele. De output zou beiden jouw naam en leeftijd moeten geven met het gebruik van 1 variabele.
 
 ```javascript runner
-// Dit mag niet
-const persoon = {
-  naam: "John Doe",
-  leeftijd: 25
-};
-
-persoon = { naam: "Jane Doe", leeftijd: 30 }; // TypeError: Assignment to constant variable.
+// Maak de variabele hier aan
+console.log(`Ik ben ${dynamischeVariable}`)
+// Geef hier de variabele een andere value.
+console.log(`Ik ben ${dynamischeVariable} jaar oud`)
 ```
 
-In het eerste voorbeeld wordt het memory adres (naar het object) niet aangepast. Dit is nog steeds hetzelfde object. We passen alleen een property binnen het object aan. In het tweede voorbeeld wordt er geprobeerd een nieuw object aan `persoon` te declareren. Omdat dit een nieuw object is, en daardoor ook een ander memory adresis, mag dit niet. 
+# 1.3 Oefening JavaScript variablen - const
+Maak in het codeblock hieronder 2 variabelen. Beiden met de naam `naam`. Zorg ervoor dat de output twee keer jouw naam geeft.
+
+```javascript runner
+
+function zegMijnNaam(){
+
+  console.log(`Mijn naam is ${naam}`)
+}
+
+zegMijnNaam()
+
+console.log(`Mijn naam is ${naam}`)
+```
