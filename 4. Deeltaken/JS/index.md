@@ -91,3 +91,19 @@
    - Introduction to testing frameworks (Jest, Mocha)
    - Writing unit tests
    - Debugging tests
+
+---
+
+
+Hieronder een lijstje die ik zelf bij houd om later op terug te komen
+- [] IIFE - Dit wordt in JS/Functions/functions in de inleiding benoemd. Dit moet uitgelegd worden. 
+- [] function paramenter spreading
+- [] hoisting
+- [] begrippen en afkortingen lijst maken
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
+- [] 
