@@ -55,16 +55,58 @@ groet()
 ```
 
 ## 1.1.4 JavaScript functions: `parameters en return`
-Uiteraard 
+Parameters zijn variabelen die je aan een functie kunt doorgeven om de functie van input te voorzien. Je definieert ze tussen de haakjes in de functiedeclaratie of functie-expressie.
+
+```javascript
+function optellen(a, b) {
+  return a + b;
+}
+
+console.log(optellen(2, 3));
+```
+
+In dit voorbeeld zijn `a` en `b` de parameters van de functie `optellen`. 
+
+Een functie kan een waarde teruggeven met behulp van het return-trefwoord. Deze waarde kan worden opgeslagen in een variabele of direct worden gebruikt.
+
+```javascript
+function vermenigvuldig(a, b) {
+  return a * b;
+}
+
+let resultaat = vermenigvuldig(4, 5);
+console.log(resultaat);
+```
+
+In dit voorbeeld retourneert de functie `vermenigvuldig` het product van `a` en `b`, en deze waarde wordt opgeslagen in de variabele `resultaat`.
 
 
 ## 1.2 Oefeningen JavaScript functions
 Hieronder enkele oefeningen betreffende JavaScript functions
 
 ## 1.2.1 Oefening JavaScript functions `functiedeclaratie`
+Schrijf een functiedeclaratie `groet` die twee parameters inneemt: naam en leeftijd. Zorg dat deze functie een template literal returned waardoor de output "Ik ben **naam** en **leeftijd** jaar oud. Als je bent vergeten hoe dit moet, kijk dan ik basis/data-types onder het string data type.
 
+```javascript runner
+// Schrijf hier jouw functie
 
+console.log(groet("Jouw naam", 20))
+```
 
-## 1.2.1 Oefening JavaScript functions `functie-expressie`
-## 1.2.1 Oefening JavaScript functions `anonieme -en pijlfuncties`
+## 1.2.2 Oefening JavaScript functions `functie-expressie`
+Schrijf een functie-expressie `deel` die twee getallen neemt en hun quotiënt teruggeeft. De output zou `4` moeten zijn.
 
+```javascript runner
+// Schrijf hier jouw functie
+
+console.log(deel(20, 5))
+```
+
+## 1.2.3 Oefening JavaScript functions `anonieme -en pijlfuncties`
+Schrijf een pijlfunctie `kwadraat` die een getal neemt en het kwadraat van dat getal teruggeeft. De output zou `25` moeten zijn.
+
+```javascript runner
+// Schrijf hier jouw functie
+
+console.log(kwadraat(5)); // 25
+```
