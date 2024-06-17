@@ -27,10 +27,13 @@ Om een volledig rapport te genereren, klik je bovenaan op "Rapports". Selecteer 
 
 # Stap 5. Threat List genereren
 Om de Threat List te genereren die je kunt exporteren naar csv klik je bovenaan op Analysis View.
+
 ![[stap5_1.png]]
 
 Klik vervolgens op ‘Export to csv’.
+
 ![[stap5_2.png]]
 
 Importeer het .csv bestand in Excel:
+
 ![[stap5_3.png]]
