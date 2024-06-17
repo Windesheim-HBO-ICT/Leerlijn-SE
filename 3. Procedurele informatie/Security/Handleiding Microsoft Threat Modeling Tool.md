@@ -48,4 +48,4 @@ Zorg ervoor dat alleen de optie `Komma / Comma` en `Dubbele scheidingsteken als 
 Laat de instellingen staan zoals ze standaard staan en klik op `Voltooien / Finish`
 ![[stap5_3.png]]
 ### Stap 5.3.5 Opslaan
-**Om het bestand later te kunnen gebruiken zorg ervoor dat je het opslaan als een `.xls` of vergelijkbaar bestandstype en niet als `.csv`. `.csv` ondersteund geen tabellen ** 
+Om het bestand later te kunnen gebruiken zorg ervoor dat je het opslaan als een `.xls` of vergelijkbaar bestandstype en niet als `.csv`. `.csv` ondersteund geen tabellen.
