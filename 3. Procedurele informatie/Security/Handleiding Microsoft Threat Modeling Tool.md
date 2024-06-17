@@ -6,7 +6,7 @@ Om toegang te krijgen tot de Microsoft Threat Modeling Tool, kun je de onderstaa
 
 [Microsoft Threat Modeling Tool downloaden](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool)
 # **Stap 2. Nieuwe model aanmaken**
-Voordat je een [threat model](1.%20Wat%20is%20een%20Threat%20Model.md) kan maken moet er eerst een nieuw project worden opgestart.
+Voordat je een [threat model](2.%20Wat%20is%20een%20Threat%20Model.md) kan maken moet er eerst een nieuw project worden opgestart.
 ![[stap2.png]]
 
 ## **Stap 3. Ontwerp een thread model**
@@ -25,15 +25,27 @@ Om een volledig rapport te genereren, klik je bovenaan op "Rapports". Selecteer 
 
 ![[stap4.png]]
 
-# Stap 5. Threat List genereren
+# **Stap 5. Threat List genereren**
+## Stap 5.1. Analysis View
 Om de Threat List te genereren die je kunt exporteren naar csv klik je bovenaan op Analysis View.
 
 ![[stap5_1.png]]
 
+## Stap 5.2 Exporteren
 Klik vervolgens op ‘Export to csv’.
 
 ![[stap5_2.png]]
 
-Importeer het .csv bestand in Excel:
-
+## Stap 5.3 Openen in Excel
+Importeer het .csv bestand in Excel en zet het om naar een tabel.
+### Stap 5.3.1. Tekst naar kolommen / Text to Columns
+Om dit te doen selecteer eerst de eerste kolom. Ga vervolgens in het lint naar het tabblad `Gegevens / Data` en klik op `Tekst naar kolommen / Text to Columns`.
+### Stap 5.3.2 Scheidingsteken
+In de `Wizard Tekst naar kolommen / Convert Text to Columns Wizard` selecteer de optie `Gescheiden / Delimited` en klik op `Volgende / Next`. 
+### Stap 5.3.3 Opties
+Zorg ervoor dat alleen de optie `Komma / Comma` en `Dubbele scheidingsteken als één beschouwen / Treat consecutive delimiters as one` zijn geselecteerd en klik op `Volgende / Next`. 
+### Stap 5.3.4 Voltooien
+Laat de instellingen staan zoals ze standaard staan en klik op `Voltooien / Finish`
 ![[stap5_3.png]]
+### Stap 5.3.5 Opslaan
+**Om het bestand later te kunnen gebruiken zorg ervoor dat je het opslaan als een `.xls` of vergelijkbaar bestandstype en niet als `.csv`. `.csv` ondersteund geen tabellen ** 
