@@ -9,7 +9,7 @@ Om toegang te krijgen tot de Microsoft Threat Modeling Tool, kun je de onderstaa
 Voordat je een [threat model](2.%20Wat%20is%20een%20Threat%20Model.md) kan maken moet er eerst een nieuw project worden opgestart.
 ![[stap2.png]]
 
-## **Stap 3. Ontwerp een thread model**
+# **Stap 3. Ontwerp een thread model**
 Aan de rechterzijde van het scherm bevinden zich de beschikbare componenten waarmee het thread model kan worden opgebouwd. In de onderstaande afbeelding zijn de volgende componenten gebruikt: 
 - Generic Data Flow (verzoek en respons) om de stroom van verzoeken te illustreren. 
 - Generic TrustLine Boundary om de locaties van de niet-vertrouwde grenzen aan te geven. 
