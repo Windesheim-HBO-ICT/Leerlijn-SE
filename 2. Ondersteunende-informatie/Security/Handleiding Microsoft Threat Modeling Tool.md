@@ -20,9 +20,9 @@ Aan de rechterzijde van het scherm bevinden zich de beschikbare componenten waar
 
 **Een handige tip**: door op een component te klikken, kunt u aan de rechterzijde van het scherm, onder het gedeelte van het component, de naam wijzigen.
 ![[sources/security/microsoft_threat_modeling_tool/stap3.png]]
-
 # **Stap 4. Rapport generen**
 Om een volledig rapport te genereren, klik je bovenaan op "Rapports". Selecteer vervolgens de optie "Generate full rapport". Zodra je een naam hebt ingevoerd, wordt het rapport automatisch gegenereerd. In dit rapport worden alle mogelijke kwetsbaarheden op basis van het **STRIDE-model** beschreven, samen met mogelijke maatregelen om ze te verminderen.
+
 ![[stap4.png]]
 
 # Stap 5. Threat List genereren
