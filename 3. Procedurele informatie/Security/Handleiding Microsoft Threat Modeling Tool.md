@@ -29,23 +29,30 @@ Om een volledig rapport te genereren, klik je bovenaan op "Rapports". Selecteer 
 ## Stap 5.1. Analysis View
 Om de Threat List te genereren die je kunt exporteren naar csv klik je bovenaan op Analysis View.
 
-![[stap5_1.png]]
+![[stap6_1.png]]
 
 ## Stap 5.2 Exporteren
 Klik vervolgens op ‘Export to csv’.
 
-![[stap5_2.png]]
+![[stap6_2.png]]
 
-## Stap 5.3 Openen in Excel
-Importeer het .csv bestand in Excel en zet het om naar een tabel.
-### Stap 5.3.1. Tekst naar kolommen / Text to Columns
+## Stap 5.3 Opslaan
+Sla het project op in de map van het vak security of bij je showcase bestanden. Op deze manier kan je gaandeweg de realisatie van het project de threat model eenvoudig aanpassen als dit nodig is.
+
+Om het project op te slaan klik je links boven op `File`, `Save As` en geef een logische locatie en bestandsnaam op. Klik vervolgens op `Opslaan` om het bestand op te slaan.
+
+![[stap5.3 opslaan.png]]
+## Stap 5.4 Openen in Excel
+Importeer het `.csv` bestand in Excel en zet het om naar een tabel. Door de threat list te exporteren naar een `xls` of vergelijkbaar bestandstype kan je erg eenvoudig de lijst langslopen en passende mitigaties uitwerken.  
+### Stap 5.4.1. Tekst naar kolommen / Text to Columns
 Om dit te doen selecteer eerst de eerste kolom. Ga vervolgens in het lint naar het tabblad `Gegevens / Data` en klik op `Tekst naar kolommen / Text to Columns`.
-### Stap 5.3.2 Scheidingsteken
+### Stap 5.4.2 Scheidingsteken
 In de `Wizard Tekst naar kolommen / Convert Text to Columns Wizard` selecteer de optie `Gescheiden / Delimited` en klik op `Volgende / Next`. 
-### Stap 5.3.3 Opties
+### Stap 5.4.3 Opties
 Zorg ervoor dat alleen de optie `Komma / Comma` en `Dubbele scheidingsteken als één beschouwen / Treat consecutive delimiters as one` zijn geselecteerd en klik op `Volgende / Next`. 
-### Stap 5.3.4 Voltooien
-Laat de instellingen staan zoals ze standaard staan en klik op `Voltooien / Finish`
-![[stap5_3.png]]
-### Stap 5.3.5 Opslaan
+### Stap 5.4.4 Voltooien
+Laat de instellingen staan zoals ze standaard staan en klik op `Voltooien / Finish`.
+
+![[stap6_3.png]]
+### Stap 5.4.5 Opslaan
 Om het bestand later te kunnen gebruiken zorg ervoor dat je het opslaan als een `.xls` of vergelijkbaar bestandstype en niet als `.csv`. `.csv` ondersteund geen tabellen.
