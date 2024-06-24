@@ -6,13 +6,13 @@
    - Setting up the development environment (browsers, text editors, and IDEs)
    - Including JavaScript in HTML (inline, internal, and external scripts)
 
-### 2. **Basic Syntax and Operators**
+### 2. **Basic Syntax and Operators** // handled
    - Variables and data types (var, let, const)
    - Comments
    - Arithmetic, comparison, logical, and assignment operators
    - Control structures (if, else, switch)
 
-### 3. **Functions**
+### 3. **Functions** // handled
    - Function declarations and expressions
    - Parameters and return values
    - Arrow functions
@@ -20,12 +20,12 @@
    - Immediately Invoked Function Expressions (IIFE)
 
 ### 4. **Data Structures**
-   - Arrays
+   - Arrays// handled
      - Array methods (push, pop, shift, unshift, map, filter, reduce, etc.)
-   - Objects
-     - Object properties and methods
+   - Objects// handled
+     - Object properties and methods// handled
      - Object destructuring
-   - Sets and Maps
+   - Sets and Maps// handled
 
 ### 5. **DOM Manipulation**
    - Document Object Model (DOM) overview
@@ -41,21 +41,21 @@
    - Preventing default actions
 
 ### 7. **Asynchronous JavaScript**
-   - Callbacks
-   - Promises
-     - Creating and using promises
-   - async/await
-   - Fetch API for AJAX requests
+   - Callbacks// handled
+   - Promises// handled
+     - Creating and using promises// handled
+   - async/await// handled
+   - Fetch API for AJAX requests // later in web api
 
 ### 8. **Error Handling**
-   - try...catch...finally
+   - try...catch...finally// handled
    - Error objects
    - Custom error handling
 
 ### 9. **ES6 and Beyond**
-   - let and const
-   - Arrow functions
-   - Template literals
+   - let and const// handled
+   - Arrow functions// handled
+   - Template literals// handled
    - Destructuring assignments
    - Spread and rest operators
    - Modules (import/export)
